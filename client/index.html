@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style >
+        body {
+            width: 600px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        .container {
+            display:flex;
+            justify-content: space-between;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Server Sent Events</h1>
+    <div class="container">
+      <ul id="stream1">
+        <li>stream every 1 second</li>
+      </ul>
+      <ul id="stream2">
+        <li>stream every 2 seconds</li>
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
